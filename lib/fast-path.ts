@@ -1,5 +1,5 @@
 import assert from "assert";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const n = types.namedTypes;
 const isArray = types.builtInTypes.array;
 const isNumber = types.builtInTypes.number;
@@ -288,7 +288,7 @@ FPp.getNextToken = function (node) {
   return null;
 };
 
-// Inspired by require("ast-types").NodePath.prototype.needsParens, but
+// Inspired by require("@axosoft/ast-types").NodePath.prototype.needsParens, but
 // more efficient because we're iterating backwards through a stack.
 FPp.needsParens = function(assumeExpressionContext) {
   const node = this.getNode();

@@ -1,6 +1,6 @@
 import assert from "assert";
 import * as recast from "../main";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const n = types.namedTypes;
 const b = types.builders;
 import { getReprinter, Patcher } from "../lib/patcher";

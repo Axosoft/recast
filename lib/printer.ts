@@ -3,7 +3,7 @@ import { printComments } from "./comments";
 import { Lines, fromString, concat } from "./lines";
 import { normalize as normalizeOptions } from "./options";
 import { getReprinter } from "./patcher";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const namedTypes = types.namedTypes;
 const isString = types.builtInTypes.string;
 const isObject = types.builtInTypes.object;

@@ -3,7 +3,7 @@ import { parse } from "../lib/parser";
 import { getReprinter } from "../lib/patcher";
 import { Printer } from "../lib/printer";
 import { fromString } from "../lib/lines";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const namedTypes = types.namedTypes;
 import FastPath from "../lib/fast-path";
 import { EOL as eol } from "os";

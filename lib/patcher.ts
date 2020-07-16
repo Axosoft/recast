@@ -1,6 +1,6 @@
 import assert from "assert";
 import * as linesModule from "./lines";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const Printable = types.namedTypes.Printable;
 const Expression = types.namedTypes.Expression;
 const ReturnStatement = types.namedTypes.ReturnStatement;

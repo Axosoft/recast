@@ -1,5 +1,5 @@
 import assert from "assert";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const n = types.namedTypes;
 import sourceMap from "source-map";
 const SourceMapConsumer = sourceMap.SourceMapConsumer;

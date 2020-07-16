@@ -1,7 +1,7 @@
 import assert from "assert";
 import fs from "fs";
 import path from "path";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 import * as recast from "../main";
 
 const nodeMajorVersion = parseInt(process.versions.node, 10);

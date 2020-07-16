@@ -1,5 +1,5 @@
 import assert from "assert";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const namedTypes = types.namedTypes;
 const builders = types.builders;
 import { parse } from "../lib/parser";

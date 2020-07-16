@@ -2,7 +2,7 @@ import assert from "assert";
 import * as recast from "../main";
 import { parse } from "../lib/parser";
 import { Printer } from "../lib/printer";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const n = types.namedTypes;
 const b = types.builders;
 import { fromString } from "../lib/lines";

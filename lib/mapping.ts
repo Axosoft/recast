@@ -1,6 +1,6 @@
 import assert from "assert";
 import { comparePos } from "./util";
-import { namedTypes } from "ast-types";
+import { namedTypes } from "@axosoft/ast-types";
 import { Lines } from "./lines";
 
 type Pos = namedTypes.Position;

@@ -1,5 +1,5 @@
 import assert from "assert";
-import * as types from "ast-types";
+import * as types from "@axosoft/ast-types";
 const n = types.namedTypes;
 const isArray = types.builtInTypes.array;
 const isObject = types.builtInTypes.object;
